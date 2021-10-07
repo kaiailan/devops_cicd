@@ -45,7 +45,7 @@ pipeline {
 
         stage('Push to Registry') {
             when {
-                branch "main"
+                branch "master"
             }
             steps {
                 script {
